@@ -1,0 +1,101 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #C66600;
+}
+.principal{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cima img{
+    height: 40px;
+    float: right;
+}
+.cima{
+    padding-right: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+}
+.meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.meio img{
+    margin-bottom: 3px;
+}
+.anuncios img{
+    width: 15%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+.anuncios{
+    display: none;
+}
+.buscador{
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.busca_button{
+    float: right;
+    margin-right: 10px;
+    width: 8%;
+    border-style: none;
+    background-color: transparent;
+}
+.busca_input{
+    margin-left: 10px;
+    width: 70%;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+footer a{
+    margin-right: 4%;
+    margin-left: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.noticias img{
+    width: 60%;
+    margin-top: 20px;
+}
+.noticias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media(min-width: 992px){
+    .lg-display-anuncio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lg-display-noticia{
+        display: none;
+    }
+}
